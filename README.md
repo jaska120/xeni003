@@ -5,7 +5,7 @@ Open Command prompt / shell
 - On Mac we will use `Terminal.app`
 - On Windows we will use `cmd.exe`
 
-## Show system information (Jaakko M)
+## 1. Show system information (Jaakko M)
 
 Mac:
 
@@ -19,7 +19,7 @@ Windows:
 systeminfo
 ```
 
-## Check in which directory you are on (Jaakko R)
+## 2. Check in which directory you are on (Jaakko R)
 
 Mac:
 
@@ -33,7 +33,7 @@ Windows:
 echo %CD%
 ```
 
-## Naviagte to desktop (Mikael)
+## 3. Naviagte to desktop (Mikael)
 
 Mac:
 
@@ -47,7 +47,7 @@ Windows:
 cd %userprofile%/Desktop
 ```
 
-## Create a folder in desktop (Jaakko M)
+## 4. Create a folder in desktop (Jaakko M)
 
 Mac:
 
@@ -61,7 +61,7 @@ Windows:
 mkdir xeni003
 ```
 
-## Create index.txt on desktop (Jaakko R)
+## 5. Create index.txt on desktop (Jaakko R)
 
 Mac:
 
@@ -75,7 +75,7 @@ Windows:
 type nul>index.txt
 ```
 
-## Move index.txt to created folder (Mikael)
+## 6. Move index.txt to created folder (Mikael)
 
 Mac:
 
@@ -89,7 +89,7 @@ Windows:
 move index.txt xeni003/index.txt
 ```
 
-## Change to created directory and list (Jaakko M)
+## 7. Change to created directory and list (Jaakko M)
 
 Mac:
 
@@ -111,7 +111,7 @@ cd xeni003
 dir
 ```
 
-## Rename index.txt -> index.html (Jaakko R)
+## 8. Rename index.txt -> index.html (Jaakko R)
 
 Mac:
 
@@ -125,7 +125,7 @@ Windows:
 move index.txt index.html
 ```
 
-## Copy html markup (Mikael)
+## 9. Copy html markup (Mikael)
 
 ```
 <html>
@@ -138,7 +138,7 @@ move index.txt index.html
 </html>
 ```
 
-## Open index.html in command line (windows in program) (Jaakko M)
+## 10. Open index.html in command line (windows in program) (Jaakko M)
 
 Mac:
 
@@ -152,14 +152,14 @@ Windows:
 Notepad index.html
 ```
 
-## Paste copied html markup (Jaakko R)
+## 11. Paste copied html markup (Jaakko R)
 
 Save file
 
 - On Mac you should press in following sequence: ctrl + x, Y, Enter
 - On Windows you should save the file as normally with notepad
 
-## Output file contents of created file (Mikael)
+## 12. Output file contents of created file (Mikael)
 
 Mac:
 
@@ -173,7 +173,7 @@ Windows:
 type index.html
 ```
 
-## Find path to file (Jaakko M)
+## 13. Find path to file (Jaakko M)
 
 Mac:
 
@@ -187,11 +187,11 @@ Windows:
 echo %CD%/index.html
 ```
 
-## Open in browser (Jaakko R)
+## 14. Open in browser (Jaakko R)
 
 Copy the path from previous command and paste it in to a browser of your choice.
 
-## Remove created directory and files in there (Mikael)
+## 15. Remove created directory and files in there (Mikael)
 
 Mac:
 

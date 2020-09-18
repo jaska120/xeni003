@@ -201,6 +201,8 @@ rm -r ~/Desktop/xeni003
 
 Windows:
 
+Answer tes when prompted
+
 ```
-rmdir %userprofile%/Desktop/xeni003
+rmdir %userprofile%/Desktop/xeni003 /s
 ```

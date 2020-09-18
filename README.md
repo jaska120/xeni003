@@ -83,7 +83,7 @@ mv index.txt xeni003/index.txt
 Windows:
 
 ```
-mv index.txt xeni003/index.txt
+move index.txt xeni003/index.txt
 ```
 
 ## Change to created directory and list
@@ -92,6 +92,9 @@ Mac:
 
 ```
 cd xeni003
+```
+
+```
 ls
 ```
 
@@ -99,6 +102,9 @@ Windows:
 
 ```
 cd xeni003
+```
+
+```
 dir
 ```
 
@@ -113,7 +119,7 @@ mv index.txt index.html
 Windows:
 
 ```
-mv index.txt index.html
+move index.txt index.html
 ```
 
 ## Copy html markup
@@ -129,7 +135,7 @@ mv index.txt index.html
 </html>
 ```
 
-## Open index.html in command line
+## Open index.html in command line (windows in program)
 
 Mac:
 
@@ -140,16 +146,15 @@ nano index.html
 Windows:
 
 ```
-nano index.html
+index.html
 ```
 
 ## Paste copied html markup
 
 ## Save file
 
-- Press ctrl + x
-- Press Enter
-- Press Enter
+- On Mac you should press in following sequence: ctrl + x, Y, Enter
+- On Windows you should save the file as normally with notepad
 
 ## Output file contents of created file
 
@@ -162,7 +167,7 @@ cat index.html
 Windows:
 
 ```
-cat index.html
+type index.html
 ```
 
 ## Find path to file
@@ -176,7 +181,9 @@ realpath index.html
 Windows:
 
 ```
-
+echo %CD%/index.html
 ```
 
 ## Open in browser
+
+Copy the path from previous command and paste it in to a browser of your choice.

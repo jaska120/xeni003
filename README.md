@@ -2,7 +2,10 @@
 
 Open Command prompt / shell
 
-Show system information
+- On Mac we will use `Terminal.app`
+- On Windows we will use `cmd.exe`
+
+## Show system information
 
 Mac:
 

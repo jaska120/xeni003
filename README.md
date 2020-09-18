@@ -146,7 +146,7 @@ nano index.html
 Windows:
 
 ```
-index.html
+Notepad index.html
 ```
 
 ## Paste copied html markup

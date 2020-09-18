@@ -66,7 +66,21 @@ Mac:
 touch index.txt
 ```
 
+Windows:
+
+```
+type nul>index.txt
+```
+
 ## Move index.txt to created folder
+
+Mac:
+
+```
+mv index.txt xeni003/index.txt
+```
+
+Windows:
 
 ```
 mv index.txt xeni003/index.txt
@@ -74,12 +88,29 @@ mv index.txt xeni003/index.txt
 
 ## Change to created directory and list
 
+Mac:
+
 ```
 cd xeni003
 ls
 ```
 
+Windows:
+
+```
+cd xeni003
+dir
+```
+
 ## Rename index.txt -> index.html
+
+Mac:
+
+```
+mv index.txt index.html
+```
+
+Windows:
 
 ```
 mv index.txt index.html
@@ -100,8 +131,16 @@ mv index.txt index.html
 
 ## Open index.html in command line
 
+Mac:
+
 ```
-touch index.html
+nano index.html
+```
+
+Windows:
+
+```
+nano index.html
 ```
 
 ## Paste copied html markup
@@ -114,14 +153,30 @@ touch index.html
 
 ## Output file contents of created file
 
+Mac:
+
+```
+cat index.html
+```
+
+Windows:
+
 ```
 cat index.html
 ```
 
 ## Find path to file
 
+Mac:
+
 ```
-ls
+realpath index.html
+```
+
+Windows:
+
+```
+
 ```
 
 ## Open in browser

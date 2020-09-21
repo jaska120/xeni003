@@ -1,5 +1,7 @@
 # Cover basic commands
 
+This is XENI0003 course.
+
 Open Command prompt / shell
 
 - On Mac we will use `Terminal.app`

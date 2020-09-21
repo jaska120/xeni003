@@ -206,3 +206,18 @@ Answer yes when prompted
 ```
 rmdir %userprofile%\Desktop\xeni003 /s
 ```
+
+## 16. Styling
+
+Let's make the headline blue!
+
+```
+<html>
+  <head>
+    <title>XENI003</title>
+  </head>
+  <body>
+    <h1 style="color:blue;">Hello world</h1>
+  </body>
+</html>
+```
